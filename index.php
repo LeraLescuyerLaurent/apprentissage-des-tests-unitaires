@@ -18,3 +18,6 @@ $response->setStatusCode(200);
 $response->setContent("hello $name");
 $response->send();
 // echo "hello $name";
+
+
+// possible d amméliorer avec des condition si setHeader est different et si statusCode est differrent de 200 renvoyer le content
