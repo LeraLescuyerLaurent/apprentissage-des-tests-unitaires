@@ -1,1 +1,1 @@
-C:37:"PHPUnit\Runner\DefaultTestResultCache":148:{a:2:{s:7:"defects";a:1:{s:38:"indexTest::test_index_shows_good_hello";i:4;}s:5:"times";a:1:{s:38:"indexTest::test_index_shows_good_hello";d:0.003;}}}
+C:37:"PHPUnit\Runner\DefaultTestResultCache":148:{a:2:{s:7:"defects";a:1:{s:38:"indexTest::test_index_shows_good_hello";i:4;}s:5:"times";a:1:{s:38:"indexTest::test_index_shows_good_hello";d:0.005;}}}

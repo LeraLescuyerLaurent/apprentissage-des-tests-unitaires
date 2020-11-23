@@ -1,4 +1,5 @@
-{
+{   
+    "description": "projet tdd",
     "require-dev": {
         "phpunit/phpunit": "^9.4"
     },
@@ -6,5 +7,12 @@
         "psr-4":{
             "TWITTER\\":"src/"
         }
-    }
+    },
+    "authors": [
+        {
+            "name": "laurent lescuyer"
+        }
+    ]
+    
+
 }

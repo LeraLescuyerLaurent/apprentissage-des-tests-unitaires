@@ -32,7 +32,24 @@ class Response
     public function setContent(string $content){
         $this->content = $content;
     }
+    public function send(){
+        //entete
+        foreach($this->headers as $key => $value){
+            // var_dump($this->headers);
+        
+            header($key.': '. $value);
+            
+        }
+        // header
+        // var_dump($this->statusCode);
+        http_response_code($this->statusCode);
+        //content
+        // var_dump($this->content);
+        echo $this->content;
 
+
+
+    }
 }
 
 
