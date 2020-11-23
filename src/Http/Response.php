@@ -8,7 +8,7 @@ class Response
     protected array $headers = [];
     protected int $statusCode = 200;
 
-    public function __construct(string $content ="", int $statusCode = 200, array $headers =[])
+    public function __construct(string $content ="", int $statusCode = 200, array $headers = ['Content-Type' => 'text/html'])
     {
         $this->content = $content;
         $this->statusCode = $statusCode;
