@@ -21,6 +21,10 @@ class ComposerStaticInit6905916faa1f93b26476cd4a3deec9ff
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'T' => 
+        array (
+            'TWITTER\\' => 8,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Ctype\\' => 23,
@@ -47,6 +51,10 @@ class ComposerStaticInit6905916faa1f93b26476cd4a3deec9ff
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'TWITTER\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
