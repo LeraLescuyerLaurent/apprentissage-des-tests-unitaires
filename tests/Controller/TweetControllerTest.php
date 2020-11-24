@@ -22,7 +22,7 @@ class TweetControllerTest extends TestCase{
         $this->assertEquals('/',$response->getHeaders()['Location']);
 
         // et je m attend a avoir un tweet dans la base de données
-        $pdo = new PDO('mysql:host=localhost;dbname=live_test;charset=utf8','root','root', [
+        $pdo = new PDO('mysql:host=localhost:3308;dbname=live_test;charset=utf8','root','llllll', [
             PDO::ATTR_ERRMODE => pdo::ERRMODE_EXCEPTION
         ]);
         $result= $pdo->query('SELECT t.* FROM tweet AS t');
