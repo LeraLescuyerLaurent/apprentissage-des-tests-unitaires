@@ -1,0 +1,21 @@
+<?php
+
+namespace TWITTER\Model;
+
+class TweetModel {
+
+    protected \PDO $pdo;
+
+    function __construct(\PDO $pdo)
+    {
+        $this->pdo = $pdo;
+    }
+
+    public function save(string $author, string $content){
+        $query = $this->pdo->prepare('INSERT INTO tweet SET content= :content,author = :author,create_at = NOW()');
+        $query->execute([
+            'content' => $content,
+            'author' => $author,
+        ]);
+    }
+}
