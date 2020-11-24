@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 use TWITTER\Controller\TweetController;
 
 class TweetControllerTest extends TestCase{
-    /**@test */
+    /** @covers */
     function test_a_user_can_save_a_tweet(){
   // et je m attend a avoir un tweet dans la base de données
         $pdo = new \PDO('mysql:host=localhost:3308;dbname=live_test;charset=utf8','root','llllll', [

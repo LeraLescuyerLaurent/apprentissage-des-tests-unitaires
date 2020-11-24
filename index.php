@@ -1,5 +1,6 @@
 <?php
-
+var_dump( array('CodeIgniter', 'php', 'phpMyAdmin', 'lucidar.me') ); 
+phpinfo();
 use TWITTER\Controller\HelloController;
 use TWITTER\Http\Response;
 
